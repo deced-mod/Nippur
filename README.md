@@ -1,5 +1,4 @@
-# Unciv-mod-example
+# Nippur
 
-An example mod for Unciv, that adds one new Civilization.
+Adds the city-state of Nippur with Enlil as it's leader to Nations.json. Don't download incomplete.
 
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
