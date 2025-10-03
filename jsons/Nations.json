@@ -53,7 +53,8 @@
 		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital",
 		"uniques": [
 			"[+20]% faith [in all cities]",
-			"[+1] food on [River] tiles [in all cities]"
+			"[+1] food on [River] tiles [in all cities]",
+			"Cannot build [Settler] units"
 		],
 		"cities": [
 			"Nippur"
