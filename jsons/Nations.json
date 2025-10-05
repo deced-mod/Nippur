@@ -1,34 +1,28 @@
 [
-	{
-		"name": "Nippur",
-		"leaderName": "Enlil",
-		"adjective": [
-			"Nippurian"
-		],
-		"startBias": [
-			"River"
-		],
-		"preferredVictoryType": "Scientific",
-		"startIntroPart1": "Hear the name of Enlil, the lord whose power resides within our sacred city of Nippur! He is the breath of life and the strength of the heavens, the king of the gods who holds dominion over the earth and its people. We, his faithful in Nippur, find our prosperity and protection under his watchful gaze, for Enlil is our shepherd and our shield. ",
-		"startIntroPart2": "O Lord of Destinies Enlil, will you build a civilization that will stand the test of time or will you drown the noise of men to slumber again?",
-		"declaringWar": [
-			"By my breath, the unrighteous nation will be swept away like dust, for their fate is sealed on the Tablets of Destiny, which I hold.",
-			"Let the land that scorns my decrees be swallowed by the whirlwind, for the roar of the Great Mountain will shatter their cities to nothing.",
-			"With the thunder of my judgment, the harvest of the impious shall rot on the stalk, and the winds of my wrath will carry their ashes to the netherworld."
-		],
-		"attacked": "Let the winds of my wrath tear their fields from the earth and the storms of my fury bury their false idols, for who dares desecrate the sacred Ekur and challenge the will of the Great Mountain?",
+    {
+        "name": "Nippur",
+        "leaderName": "Enlil",
+        "adjective": [
+            "Nippurian"
+        ],
+        "startBias": ["River"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "Hear the name of Enlil, the lord whose power resides within our sacred city of Nippur! He is the breath of life and the strength of the heavens, the king of the gods who holds dominion over the earth and its people. We, his faithful in Nippur, find our prosperity and protection under his watchful gaze, for Enlil is our shepherd and our shield. ",
+        "startIntroPart2": "O Lord of Destinies Enlil, will you build a civilization that will stand the test of time or will you drown the noise of men to slumber again?",
+        "declaringWar": 
+            "Let the land that scorns my decrees be swallowed by the whirlwind, for the roar of the Great Mountain will shatter their cities to nothing.",
+       "attacked": "Let the winds of my wrath tear their fields from the earth and the storms of my fury bury their false idols, for who dares desecrate the sacred Ekur and challenge the will of the Great Mountain?",
 		"defeated": "You have broken the very order of the heavens with your chaos, and though my holy seat of Nippur is profaned, the wind of my fury will return to strip the flesh from your bones.",
 		"introduction": "Behold, I am Enlil, the Great Mountain whose roar fills the heavens, and my will alone is law within the holy Ekur of Nippur.",
 		"neutralHello": "You come as a lesser lord, but with my approval you bring prosperity to your people, for the breath that fills your lungs is my air, and my will is the law of all lands.",
 		"neutralLetsHearIt": "The wind carries your voice to the Ekur, and the Great Mountain will lend an ear, for all things are judged before me, and even the smallest of mortal requests will be heard by my judgment.",
-		"neutralNo": [
+        "neutralNo": [
 			"The tribute from your mortal hands is but dust and clay, and though your heart is known to me, the favor of the Great Mountain demands a worthier tribute.",
 			"The prosperity I have already granted your land is far more than you offered in return, so let your prayer be sweeter and your offering richer before you command the will of the King of the Gods.",
 			"The wind of my judgment has found your request wanting, for it is I who determines all destinies, and it is not for a mortal king to command my favor without an equal offering."
 		],
-		"neutralYes": [
-			"The wind of my favor has carried your name to the holy Ekur, and the great harvest that blesses your land is a gift from the Great Mountain, for your rule is pleasing in my eyes"
-		],
+		"neutralYes":
+			"The wind of my favor has carried your name to the holy Ekur, and the great harvest that blesses your land is a gift from the Great Mountain, for your rule is pleasing in my eyes",
 		"hateHello": "The wind carries your name to my Ekur not as an honored guest, but as a foul stench of discord, and your pathetic kingdom will wither under my gaze until your name is but a whisper in the dust.",
 		"hateLetsHearIt": "The thunder of my judgment has spared you for now, mortal, so speak your worthless words in the Ekur, for it amuses the Great Mountain to hear the whimpering of a flea.",
 		"hateNo": "The wind of my judgment has found your offering to be but a foul gust of dust, and the Great Mountain scoffs that such a pitiful tribute would ever suffice to pacify his wrath.",
@@ -39,37 +33,38 @@
 			"Only by my firm and unalterable word is this conflict undone, for my power, which laid your cities to ruin, is the very same that now allows them to stand once more."
 		],
 		"tradeRequest": "Your treasures of bronze and lapis are paltry things, yet I shall receive them in my wisdom, and in return, you shall be given the superior fruits of my earth.",
-		"outerColor": [
-			255,
-			255,
-			255
-		],
-		"innerColor": [
-			38,
-			97,
-			164
-		],
-		"uniqueName": "Enlil's Blessing",
-		"uniqueText": "All land units move twice as fast on tiles next to rivers. +2 [Science] in Capital",
-		"uniques": [
-			"[+20]% faith [in all cities]",
-			"[+1] food on [River] tiles [in all cities]",
-			"Cannot build [Settler] units"
-		],
-		"cities": [
-			"Nippur"
-		],
-		"spyNames": [
-			"Lul-ki",
-			"Nin-ganza",
-			"Igi-bala",
-			"Ganzir",
-			"Gissu-lu",
-			"Igi-dabsar",
-			"Kash-ma",
-			"Gizzal",
-			"Gishkim-lu",
-			"En-til"
-		]
-	}
+	"uniqueName": "Enlil's Blessing",
+	 "uniques": [
+            "Cannot build [Settler] units",
+            "May not annex cities",
+            "[+20]% [Faith] [in capital]",
+            "[+1 Food] from [River] tiles [in capital]"
+        ],
+			
+	"cities": [
+            "Nippur"
+        ],
+        "spyNames": [
+            "Lul-ki",
+            "Nin-ganza",
+            "Igi-bala",
+            "Ganzir",
+            "Gissu-lu",
+            "Igi-dabsar",
+            "Kash-ma",
+            "Gizzal",
+            "Gishkim-lu",
+            "En-til"
+        ],
+        "outerColor": [
+            255,
+            255,
+            255
+        ],
+        "innerColor": [
+            24,
+            49,
+            126
+        ]
+    }
 ]
