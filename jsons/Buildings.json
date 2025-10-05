@@ -1,25 +1,20 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Ekur",
+		"replaces": "Grand Temple",
+		"uniqueTo": "Nippur",
+		"cost": 125,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"faith": 8,
+		"food": 2,
+		"culture": 1,
+		"uniques": [
+				"Cost increases by [+30] per owned city",
+				"Only available <if [Temple] is constructed in all [non-Puppeted] cities>",
+				"Only available when religion is enabled",
+				"Can only be built in Holy cities"
+				
+			],
+		"requiredTech": "Philosophy"
 	}
 ]
