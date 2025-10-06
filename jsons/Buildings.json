@@ -9,10 +9,12 @@
 		"food": 2,
 		"culture": 1,
 		"uniques": [
-				"Cost increases by [+30] per owned city",
-				"Only available <if [Temple] is constructed in all [non-Puppeted] cities>",
-				"Only available when religion is enabled",
-				"Can only be built in Holy cities"
+				"Cost increases by [30] per owned city",
+				"[40]% Food is carried over after population increases [in this city]",
+				"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+				"Only available <when religion is enabled>",				
+				"[+100]% Natural religion spread [in this city]",
+				"Can only be built <in [Holy] cities>"
 				
 			],
 		"requiredTech": "Philosophy"
