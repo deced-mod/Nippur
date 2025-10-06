@@ -1,17 +1,27 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		
+		"name": "Settler",
+		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"cost": 106,
+		"uniques": [
+			"Comment [Founds a new city]",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+
+			// Venice Unique: Can't settle another city. Get a Worker instead?
+			"Founds a new city <by consuming this unit> <for [Venice] Civilizations> <if [Palace] is not constructed> <hidden from users>",
+			"Founds a new city <by consuming this unit> <for [non-[Venice]] Civilizations> <hidden from users>",
+			"Triggers a [Serenissima] event <for [Venice] Civilizations> <if [Palace] is constructed> <upon turn end> <hidden from users>"
+	
+		
+			// Nippur Unique: Can't settle another city. Get a Worker instead?
+			"Founds a new city <by consuming this unit> <for [Nippur] Civilizations> <if [Palace] is not constructed> <hidden from users>",
+			"Founds a new city <by consuming this unit> <for [non-[Nippur]] Civilizations> <hidden from users>",
+			"Triggers a [Serenissima] event <for [Nippur] Civilizations> <if [Palace] is constructed> <upon turn end> <hidden from users>"
+		],
+		"hurryCostModifier": 20
 	}
+	
 ]
