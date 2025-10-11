@@ -36,9 +36,10 @@
 	"uniqueName": "Enlil's Blessing",
 	 "uniques": [
             "Cannot build [Settler] units",
+            "Cannot build [Missionary] units",
             "May not annex cities",
             "[+20]% [Faith] [in capital]",
-            "[+1 Food] from [River] tiles [in capital]"
+            "[+1 Food, +1 Faith] from [River] tiles [in capital]"
         ],
 			
 	"cities": [
@@ -57,9 +58,9 @@
             "En-til"
         ],
         "outerColor": [
-            255,
-            255,
-            255
+            212,
+            175,
+            55
         ],
         "innerColor": [
             24,
